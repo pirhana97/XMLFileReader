@@ -1,0 +1,39 @@
+<AiScheduler>
+  <Job>
+  <TotalSize>2MB</TotalSize>
+  <ClockRate>50MHz</ClockRate>
+    <ExecutionTime>2ms</ExecutionTime>
+  <Cached>512kB</Cached>
+  <CPUUtilization>65%</CPUUtilization>
+  </Job>
+  <Job>
+     <TotalSize>4MB</TotalSize>
+    <ClockRate>2.8GHz</ClockRate>
+    <ExecutionTime>1.2ms</ExecutionTime>
+    <Cached>2MB</Cached>
+    <CPUUtilization>61%</CPUUtilization>
+  </Job>
+
+  <Job>
+     <TotalSize>1MB</TotalSize>
+    <ClockRate>25MHz</ClockRate>
+    <ExecutionTime>7.8ms</ExecutionTime>
+    <Cached>256kB</Cached>
+    <CPUUtilization>53%</CPUUtilization>
+  </Job>
+
+  <Job>
+     <TotalSize>16MB</TotalSize>
+    <ClockRate>3.2GHz</ClockRate>
+    <ExecutionTime>0.7ms</ExecutionTime>
+    <Cached>4MB</Cached>
+    <CPUUtilization>78%</CPUUtilization>
+  </Job>
+
+  <Job>
+     <TotalSize>32MB</TotalSize>
+    <ClockRate>5.6GHz</ClockRate>
+    <ExecutionTime>0.03ms</ExecutionTime>
+    <Cached>16MB</Cached>
+    <CPUUtilization>81%</CPUUtilization>
+  </Job>
