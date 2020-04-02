@@ -17,6 +17,8 @@ namespace XMLParserConsoleClient
             string filePath = Console.ReadLine();
             Console.WriteLine(proxy.ShowMessage(filePath));
             Console.WriteLine(proxy.Parser(filePath));
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
 
         }
     }
