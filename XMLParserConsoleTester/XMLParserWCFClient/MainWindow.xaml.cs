@@ -46,8 +46,13 @@ namespace XMLParserWCFClient
 
         private void OnClick_GetParameters(object sender, RoutedEventArgs e)
         {
-            XMLParser parser = new XMLParser();
-            Attributes_Display.Text = parser.parserReturn(FilePath.Text);
+            //  XMLParser parser = new XMLParser();
+            //   Attributes_Display.Text = parser.parserReturn(FilePath.Text);
+            XMLParserServiceProxy.XMLParserServiceProxy proxy = new XMLParserServiceProxy.XMLParserServiceProxy();
+            string filePath = FilePath.Text;
+
+            Attributes_Display.Text = proxy.Parser(filePath);
+
 
 
         }

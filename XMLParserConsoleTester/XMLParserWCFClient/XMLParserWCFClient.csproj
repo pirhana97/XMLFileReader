@@ -58,6 +58,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Windows.Forms.Ribbon35.3.5.8.0\lib\net35\System.Windows.Forms.Ribbon35.dll</HintPath>
@@ -132,6 +133,10 @@
     <ProjectReference Include="..\XMLParserConsoleTester\XMLParserClient.csproj">
       <Project>{cac41b53-22c7-4e52-b4df-037de60c5195}</Project>
       <Name>XMLParserClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMLParserServiceProxy\XMLParserServiceProxy.csproj">
+      <Project>{fe3e013f-ff6e-470e-b7ae-f632d8d1e7e4}</Project>
+      <Name>XMLParserServiceProxy</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

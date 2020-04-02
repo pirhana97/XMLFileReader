@@ -94,6 +94,10 @@
       <Project>{3fccc92d-c5fb-4de3-82d2-d49640e306fa}</Project>
       <Name>syngo.XMLParser.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XMLParserServiceProxy\XMLParserServiceProxy.csproj">
+      <Project>{fe3e013f-ff6e-470e-b7ae-f632d8d1e7e4}</Project>
+      <Name>XMLParserServiceProxy</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XMLParsing\XMLParsing.csproj">
       <Project>{22836BB6-8927-413E-A045-2F03A5D97681}</Project>
       <Name>XMLParsing</Name>

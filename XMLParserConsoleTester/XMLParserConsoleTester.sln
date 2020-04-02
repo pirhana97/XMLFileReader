@@ -17,6 +17,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLValidatorTestHelper", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParserWCFClient", "XMLParserWCFClient\XMLParserWCFClient.csproj", "{A61C3BEE-E521-468B-ADC0-47AE907BC08D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParserWCFService", "XMLParserService\XMLParserWCFService.csproj", "{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParserServiceHost", "XMLParserServiceHost\XMLParserServiceHost.csproj", "{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParserServiceProxy", "XMLParserServiceProxy\XMLParserServiceProxy.csproj", "{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParserConsoleClient", "XMLParserConsoleClient\XMLParserConsoleClient.csproj", "{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +89,38 @@ Global
 		{A61C3BEE-E521-468B-ADC0-47AE907BC08D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A61C3BEE-E521-468B-ADC0-47AE907BC08D}.Release|x64.ActiveCfg = Release|Any CPU
 		{A61C3BEE-E521-468B-ADC0-47AE907BC08D}.Release|x64.Build.0 = Release|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Debug|x64.Build.0 = Debug|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Release|x64.ActiveCfg = Release|Any CPU
+		{FCB0EEE6-6A15-4EF4-8E1F-CEAD06E89303}.Release|x64.Build.0 = Release|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Debug|x64.Build.0 = Debug|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Release|x64.ActiveCfg = Release|Any CPU
+		{FCEA28FF-3F97-4647-BB53-9C9F610FBE09}.Release|x64.Build.0 = Release|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Debug|x64.Build.0 = Debug|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Release|x64.ActiveCfg = Release|Any CPU
+		{FE3E013F-FF6E-470E-B7AE-F632D8D1E7E4}.Release|x64.Build.0 = Release|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Debug|x64.Build.0 = Debug|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Release|x64.ActiveCfg = Release|Any CPU
+		{9669EF74-B72F-4F26-9756-82FE8ED8C9B9}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
